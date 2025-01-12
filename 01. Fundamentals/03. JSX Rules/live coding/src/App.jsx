@@ -19,7 +19,7 @@
 // const App = () => {
 //     return (
 //         <section id="section">
-//           <img >
+//           <img > here it should be like  <img /> 
 //         </section>
 //       );
 // }
@@ -40,7 +40,8 @@ const App = () => {
   return (
     <section class="section">
       <form>
-        <label for="name">Name</label>
+        <label for="name">Name</label>  //this gives error we have to use htmlFor 
+        
         <input type="text" placeholder="Enter Your Name" id="name" />
       </form>
     </section>
