@@ -8,6 +8,7 @@ const ProductList = () => {
   return (
     <div>
       {products.map((p) => (
+      // we can also use key={Math.random()}
         <div key={p.id}>
           <h1>Name: {p.name}</h1>
           <h1>Price: {p.price}</h1>
